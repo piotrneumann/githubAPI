@@ -1,8 +1,6 @@
 package com.example.recruitmenttask.core;
 
 
-import com.example.recruitmenttask.model.dto.GitHubUserDataDto;
-import com.example.recruitmenttask.model.dto.UserDto;
 import com.example.recruitmenttask.user.UserServiceImpl;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

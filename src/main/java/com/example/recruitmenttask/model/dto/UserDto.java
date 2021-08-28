@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
-public class UserDto extends BaseUser{
+public class UserDto extends BaseUser {
 
     private double calculations;
 

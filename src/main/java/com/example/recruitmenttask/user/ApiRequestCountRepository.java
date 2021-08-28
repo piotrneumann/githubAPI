@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface ApiRequestCountRepository extends JpaRepository<ApiRequestCount, Long> {
 
-    Optional<ApiRequestCount> findApiRequestCountsByLogin (String login);
+    Optional<ApiRequestCount> findApiRequestCountsByLogin(String login);
 }

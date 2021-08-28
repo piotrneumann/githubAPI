@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @EqualsAndHashCode
 @Data
-public class GitHubUserDataDto extends BaseUser{
+public class GitHubUserDataDto extends BaseUser {
 
     private int public_repos;
     private int followers;
