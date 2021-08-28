@@ -20,7 +20,7 @@ public class TaskLoader implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) {
-        UserDto piotrneumann = userSerive.getUserDto("octocat");
-        piotrneumann.getCalculations();
+//        UserDto piotrneumann = userSerive.getUserDto("octocat");
+//        piotrneumann.getCalculations();
     }
 }
